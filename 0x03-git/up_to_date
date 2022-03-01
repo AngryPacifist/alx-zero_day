@@ -1,0 +1,23 @@
+user@DESKTOP-QLRQUAB MINGW64 ~/alx-pre_course (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+user@DESKTOP-QLRQUAB MINGW64 ~/alx-pre_course (main)
+$ git fetch origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 812 bytes | 54.00 KiB/s, done.
+From https://github.com/AngryPacifist/alx-pre_course
+   8f50326..51b5f90  main       -> origin/main
+
+user@DESKTOP-QLRQUAB MINGW64 ~/alx-pre_course (main)
+$ git pull origin main
+From https://github.com/AngryPacifist/alx-pre_course
+ * branch            main       -> FETCH_HEAD
+Updating 8f50326..51b5f90
+Fast-forward
+ README.md | Bin 36 -> 110 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
